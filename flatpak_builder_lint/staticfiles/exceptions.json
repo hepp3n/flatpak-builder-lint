@@ -1850,7 +1850,6 @@
     },
     "com.jetbrains.Rider": {
         "stable": {
-            "finish-args-arbitrary-dbus-access": "IDEs tend to require direct dbus access",
             "finish-args-flatpak-spawn-access": "the app predates this linter rule",
             "finish-args-host-filesystem-access": "Predates the linter rule",
             "finish-args-contains-both-x11-and-wayland": "Rider uses Wayland but some capabilities needs X11, like Avalonia development"
@@ -2365,7 +2364,6 @@
     },
     "com.teamspeak.TeamSpeak": {
         "*": {
-            "finish-args-contains-both-x11-and-wayland": "Required as with fallback-x11 socket, Teamspeak will crash when audio or hotkey settings are opened",
             "finish-args-unnecessary-xdg-config-TeamSpeak-rw-access": "TeamSpeak 6 plugins installation directory."
         }
     },
@@ -3548,11 +3546,6 @@
         "stable": {
             "finish-args-flatpak-spawn-access": "the app predates this linter rule",
             "finish-args-home-ro-filesystem-access": "Predates the linter rule"
-        }
-    },
-    "io.github.am2r_community_developers.Atomic": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
     "io.github.amit9838.mousam": {
@@ -5234,8 +5227,7 @@
     },
     "net.cozic.joplin_desktop": {
         "*": {
-            "external-gitmodule-url-found": "Predates the linter rule",
-            "finish-args-home-filesystem-access": "Predates the linter rule"
+            "external-gitmodule-url-found": "Predates the linter rule"
         }
     },
     "net.daase.journable": {
@@ -5384,8 +5376,6 @@
     },
     "net.mediaarea.MediaInfo": {
         "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
-            "finish-args-home-filesystem-access": "Predates the linter rule",
             "finish-args-host-ro-filesystem-access": "Predates the linter rule"
         }
     },
@@ -5655,11 +5645,6 @@
     "org.adishatz.syncpasswd": {
         "stable": {
             "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
-        }
-    },
-    "org.aegisub.Aegisub": {
-        "stable": {
-            "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
     "org.altlinux.Tuner": {
@@ -6438,11 +6423,6 @@
     "org.gnome.Logs": {
         "stable": {
             "finish-args-host-var-access": "Predates the linter rule"
-        }
-    },
-    "org.gnome.Lollypop": {
-        "stable": {
-            "finish-args-flatpak-spawn-access": "the app predates this linter rule"
         }
     },
     "org.gnome.Loupe": {
